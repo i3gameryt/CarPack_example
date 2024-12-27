@@ -6,11 +6,7 @@ description 'Combined Addon Cars Resource'
 version '1.0.0'
 
 files {
-    'data/**/vehicles.meta',
-    'data/**/carvariations.meta',
-    'data/**/carcols.meta',
-    'data/**/handling.meta',
-    'data/**/vehiclelayouts.meta',
+    'data/**/*.meta',
 }
 
 data_file 'HANDLING_FILE' 'data/**/handling.meta'
